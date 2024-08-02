@@ -1,0 +1,50 @@
+/* CSS/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #db1e1e;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2699db;
+}
+
+nav ul li {
+    float: center;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(89, 44, 214);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #39d499;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    nav ul {
+        float: none;
+        width: 100%;
+    }
+    
+    nav ul li {
+        float: none;
+    }
+    
+    nav ul li a {
+        display: block;
+        text-align: center;
+    }
+}
